@@ -1,0 +1,23 @@
+{
+  "name": "shen",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shen",
+  "license": "ISC",
+  "dependencies": {
+    "cjs": "^0.0.11",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.21.0",
+    "winston": "^3.7.2"
+  }
+}
