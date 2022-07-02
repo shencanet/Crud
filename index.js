@@ -16,7 +16,7 @@ app.use(express.json());
 app.get('/', (req, res) => {res.send('Bienvenidos a Express');});
 
 const router = require('./router.js');
-app.use(router);
+app.use("/", router);
 
 
 app.listen(PORT, () => {
